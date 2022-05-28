@@ -1,0 +1,90 @@
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+}
+header .links{
+    /*width:60%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.choix .text{
+    text-align: center;
+    width: 50%;
+    height:450px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    box-shadow: 1px 1px 7px black;
+}
+.choix .text p{
+    font-style: oblique;
+    font-size:21px;
+}
+.choix .text h1{
+    color:#AABF7E;
+    cursor: pointer;
+    text-shadow: 1px 4px 4px rgb(85, 85, 85);
+    font-size:50px;
+}
+.choix .text a:hover{
+    box-shadow: 4px 4px 15px black;
+}
+.choix .image{
+    width:50%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+.choix .image img{
+    width:600px;
+    height:400px;
+}
+.etapes{
+    text-align: center;
+    border-top: 1px black groove;
+    height: 400px;
+    padding-top: 10px;
+}
+.cartes{
+    width:95%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cartes .carte{
+    height:300px;
+    width:300px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.cartes .carte img{
+    width:200px;
+    height:200px;
+    border-radius: 6rem;
+}
+.cartes .carte .text{
+    margin-top: 10px;
+    text-align: center;
+
+}

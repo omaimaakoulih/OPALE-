@@ -1,0 +1,147 @@
+.topcontainer{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:auto;
+}
+.sidebare{
+    width:8%;
+    height:700px;
+    position:fixed;
+    bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AABF7E;
+}
+.sidebare .links{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:420px;
+    background-color: #AABF7E;
+}
+.sidebare .links a{
+    color:black;
+}
+.sidebare .links div{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.sidebare .links div svg{
+    width:100%;
+    height:45px;
+}
+.sidebare .links .selected{
+    background-color: white;
+}
+.sidebare .logo{
+    width:100%;
+    height:auto;
+    border-right:0px;
+    position: relative;
+}
+.sidebare .logo img{
+    cursor: pointer;
+    width:100%;
+    height:90px;
+    min-width:63px;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    width:92%;
+    position:relative;
+    left:8%;
+}
+.contenu .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height:50px;
+}
+.contenu .header div a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.contenu .header div{
+    position: relative;
+    right:50px;
+}
+.afterheader .svg{
+    width:90%;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+.afterheader{
+    display: flex;
+    flex-direction: column;
+}
+.afterheader .svg img{
+    width:300px;
+    height:300px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:85%;
+    height:200px;
+    border:0px black groove;
+    box-shadow: 0px 3px 15px black;
+    border-radius: 2rem;
+    justify-self: center;
+    margin-top: 30px;
+}
+.hello .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+}
+.hello .text strong{
+    color:#AABF7E;
+}
+.hello .image{
+    width:50%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hello .image img{
+    width:100%;
+    height:300px;
+}
+.slider{
+    width:90%;
+    position: relative;
+    left:60px;
+}
+.calendarday{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.divcalend{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,268 @@
+body{
+    background-color:#F8F9FD;
+    min-width: 640px;
+}
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+}
+/*
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    width: 120px;
+    height:120px;
+    cursor: pointer;
+}
+header .links{
+    width:55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color:black;
+}
+header .links a:hover{
+    color:white;
+    background-color: #143109;
+    border:1px black groove;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rem;
+}
+*/
+.container{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+.container .navbar{
+   border-top-right-radius: 2rem;
+   border-top-left-radius: 2rem;
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   background-color:#AABF7E;
+   height:55px;
+   width: 100%;
+}
+.container .navbar .links{
+    width:85%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:flex-end;
+    color:white;
+    font-size: 20px;
+}
+
+.container .navbar .links svg{
+    width:40px;
+    height:32px;
+}
+.container .navbar .links div{
+    height:45px;
+    width:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar .links .selected{
+    border:0px black groove;
+    background-color: white;
+    color:white;
+    border-right: none;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.ul{
+    position: relative;
+    top:140px;
+    border:0px black groove;
+    height:170px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    color:black;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px black;
+    z-index: 3;
+    visibility: hidden;
+}
+.ul-visible{
+    position: relative;
+    top:140px;
+    border:0px black groove;
+    height:170px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    color:black;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px black;
+    z-index: 3;
+    visibility:visible;
+}
+.ul li{
+    list-style: none;
+    position:relative;
+    right:32px;
+    border-bottom: 1px black groove;
+    width:132%;
+    height:57px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li1{
+    background-color: #5F7044;
+}
+.li2{
+    background-color: white;
+}
+#employeers{
+    position: relative;
+    left:70px;
+}
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+}
+
+.container .navbar .links .a{
+    color:black;
+    text-decoration: none;
+}
+
+.container .navbar .links .li1 a{
+    color: #B8B8B8;
+    text-decoration: none;
+}
+
+.li1 {
+    background-color: #131412;
+}
+
+
+header .links a:hover{
+    color:white;
+    background-color: #3B6064;
+    border:0px black groove;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    flex-wrap: wrap;
+    width:95%;
+    height:auto;
+}
+.infos .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height:auto;
+    width:95%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.infos .div1 .hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:0px black groove;
+    border-radius: 2rem;
+    width:60%;
+    height:300px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px gainsboro;
+}
+.infos .div1 .canva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:35%;
+    height:330px;
+    
+}
+.infos .div1 .canva canvas{
+    border-radius: 3rem;
+    box-shadow: 4px 4px 15px gainsboro;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /*align-self: center;*/
+    padding: 20px;
+    width:100%;
+    margin:20px;
+    flex-wrap: wrap;
+}
+.div2 .cardes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:auto;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    min-width: 360px;
+}
+.div2 .cardes .cardess{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:185px;
+    height:300px;
+    border:0px black groove;
+    border-radius: 2rem;
+    box-shadow: 3px 4px 10px gainsboro;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    min-width: 178px;
+}
+.div2 .cardes .cardeb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:185px;
+    height:350px;
+    border:0px black groove;
+    border-radius: 2rem;
+    box-shadow: 3px 4px 10px gray;
+    background-image:linear-gradient(25deg,#AABF7E,black); /*rgba(170, 191, 126, 0.4);*/
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    min-width: 178px;
+}

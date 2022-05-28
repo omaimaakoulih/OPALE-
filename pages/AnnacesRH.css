@@ -1,0 +1,208 @@
+
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    width: 120px;
+    height:120px;
+    cursor: pointer;
+}
+header .links{
+    width:40%;
+    position: relative;
+    right:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color:black;
+    font-size: 19px;
+}
+header .links a:hover{
+    color:white;
+    background-color:#344F1F;   /******* */
+    border:0px black groove;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.container{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+}
+.container .navbar{
+   background-color:#AABF7E; /*********** */
+   border-top-right-radius: 2rem;
+   border-top-left-radius: 2rem;
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+}
+.container .navbar .links{
+    width:90%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.container .navbar .links{
+    color:white;
+    font-size: 20px;
+}
+.container .navbar .links svg{
+    width:40px;
+    height:30px;
+}
+.container .navbar .links div{
+    width:200px;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar .links .selected{
+    border:0px black groove;
+    background-color: white;
+    color:white;
+    border-right: none;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.ul{
+    position: relative;
+    top:140px;
+    border:0px black groove;
+    height:170px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px black;
+    visibility: hidden;
+}
+.ul-visible{
+    position: relative;
+    top:140px;
+    border:0px black groove;
+    height:170px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px black;
+    visibility:visible;
+    z-index: 3;
+}
+.ul li{
+    list-style: none;
+    position:relative;
+    right:32px;
+    border-bottom: 1px black groove;
+    width:132%;
+    height:57px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#employeers{
+    position: relative;
+    left:70px;
+}
+.li1{
+    background-color: #131412;
+}
+.li1 a{
+    color:	#B8B8B8;
+    text-decoration: none;
+}
+.li1 a:hover{
+    color:	#B8B8B8;
+}
+.li2{
+    background-color:white;
+}
+.annaces{
+    margin-top:30px;
+}
+.annavespartie{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.annavespartie table{
+    height:auto;
+    width:80%;
+    border: 0px gray groove;
+}
+.annavespartie table tr{
+    border-bottom: 1px groove gray;
+}
+.annavespartie table th{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #131412;
+    color:white;
+    text-align: center;
+    height:35px;
+}
+.annavespartie table td{
+    text-align: justify;
+}
+.annavespartie table .right{
+    border-right: 1px #131412 groove;
+    font-size: 17px;
+    font-style:italic;
+    font-weight: bold;
+    color:#131412;
+}
+.addannaces{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+.addannaces form{
+    margin-top:50px;
+}
+.addannaces form label{
+    color:#131412;
+    font-size: 17px;
+}
+.addannaces form #titre{
+    width:400px;
+    height:40px;
+}
+.addannaces form .textarea{
+    margin-top: 10px;
+    text-overflow: clip;
+}
+.addannaces form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

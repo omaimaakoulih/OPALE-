@@ -1,0 +1,113 @@
+body{
+    background-image: url("../assets/images/Cream\ and\ Green\ Geometric\ Background\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+}
+header .links{
+    width:55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color:black;
+}
+header .links a:hover{
+    color:white;
+    background-color: #143109;
+    border:1px black groove;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.topcontainer{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:90%;
+    height:600px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 3rem;
+}
+.container .loging{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .loging h1{
+    color:#143109;
+    cursor: pointer;
+    text-shadow: 1px 4px 4px rgb(85, 85, 85);
+    font-size:50px;
+    position: relative;
+    bottom: 50px;
+}
+.container .loging form{
+    display: flex;
+    height:200px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .loging form input{
+    border-radius: 2rem;
+    height:30px;
+    width:200px;
+    background-color:#EAEDED ;
+}
+.container .loging form label{
+    font-style: oblique;
+    font-weight: bold;
+}
+#submit{
+    background:linear-gradient(45deg,#92E3A9,#EFFFFF);
+    position: relative;
+    left:60px;
+    width:209px;
+}
+.container .image{
+    width:50%;
+    height:500px;
+}
+.container .image img{
+    width:600px;
+    height:600px;
+    position: relative;
+    top:-30px;
+}
+#email{
+    position: relative;
+    left:29px;
+}
+#id{
+    position: relative;
+    left:5px;
+}
+#password{
+    position: relative;
+    left:5px;
+}

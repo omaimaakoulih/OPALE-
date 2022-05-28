@@ -1,0 +1,198 @@
+
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    width: 120px;
+    height:120px;
+    cursor: pointer;
+}
+header .links{
+    width:55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header .links a{
+    text-decoration: none;
+    color:black;
+}
+header .links a:hover{
+    color:white;
+    background-color: #143109;
+    border:1px black groove;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.container{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+}
+.container .navbar{
+   background-color: #5F7044;
+   border-top-right-radius: 2rem;
+   border-top-left-radius: 2rem;
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+}
+.container .navbar .links{
+    width:90%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.container .navbar .links{
+    color:white;
+    font-size: 20px;
+}
+.container .navbar .links svg{
+    width:40px;
+    height:30px;
+}
+.container .navbar .links a{
+    color:black;
+    text-decoration: none;
+}
+.container .navbar .links div{
+    width:200px;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar .links .selected{
+    border:0px black groove;
+    background-color: white;
+    color:white;
+    border-right: none;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.ul{
+    position: relative;
+    top:140px;
+    border:0px black groove;
+    height:170px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    color:black;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px black;
+    z-index: 3;
+    visibility: hidden;
+}
+.ul-visible{
+    position: relative;
+    top:140px;
+    border:0px black groove;
+    height:170px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    color:black;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px black;
+    z-index: 3;
+    visibility:visible;
+}
+.ul li{
+    list-style: none;
+    position:relative;
+    right:32px;
+    border-bottom: 1px black groove;
+    width:132%;
+    height:57px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li1{
+    background-color: #5F7044;
+}
+#employeers{
+    position: relative;
+    left:70px;
+}
+
+.Ajoute{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px black;
+    position: relative;
+    top:30px;
+    z-index: 1;
+    
+}
+.Ajoute .h4{
+    width:100%;
+    height:50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px black groove;
+}
+.Ajoute .h4 span{
+    color:#5F7044;
+}
+.li2{
+    background-color:white;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height:450px;
+}
+
+.add form{
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.add form div{
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9c9c9;
+}
+.add form div label svg{
+    width:25px;
+    height:25px;
+    margin-right: 20px;
+}
+.add form div input{
+    height:40px;
+    width:300px;
+    border-width: 0px;
+    border-left: 1px black groove;
+    background-color:#c9c9c9;
+}
+.add form .submit{
+    background-color: #5F7044;
+}

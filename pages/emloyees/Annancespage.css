@@ -1,0 +1,84 @@
+.topcontainer{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:auto;
+}
+.sidebare{
+    width:8%;
+    height:auto;
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AABF7E;
+}
+.sidebare .links{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    background-color: #AABF7E;
+}
+.sidebare .links a{
+    color:black;
+}
+.sidebare .links div{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.sidebare .links div svg{
+    width:100%;
+    height:40px;
+}
+.sidebare .links .selected{
+    background-color: white;
+}
+.sidebare .logo{
+    width:100%;
+    height:auto;
+}
+.sidebare .logo img{
+    width: 100%;
+    height:100px;
+    cursor: pointer;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    width:92%;
+    position:relative;
+    left:8%;
+}
+.contenu .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height:50px;
+}
+.contenu .header div a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.contenu .header div{
+    position: relative;
+    right:50px;
+}
+.annaces{
+    margin-top:30px;
+}
+.annavespartie{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,125 @@
+body{
+   background-color: white;
+}
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    width:150px;
+    height:120px;
+    cursor: pointer;
+    border-radius:  2rem;
+}
+header .links{
+    width:55%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+}
+header .links a{
+    text-decoration: none;
+    color:black;
+}
+header .links a:hover{
+    color:white;
+    background-color: #143109;
+    border:1px black groove;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rem;
+}
+
+.container .navbar{
+   background-color: #5F7044;
+   border-top-right-radius: 2rem;
+   border-top-left-radius: 2rem;
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+}
+.container .navbar .links{
+    width:90%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.container .navbar .links{
+    color:white;
+    font-size: 20px;
+}
+.container .navbar .links svg{
+    width:40px;
+    height:30px;
+}
+.container .navbar .links a{
+    color:black;
+    text-decoration: none;
+}
+.container .navbar .links div{
+    width:200px;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar .links .selected{
+    border:0px black groove;
+    background-color: white;
+    color:white;
+    border-right: none;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.tablezone{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width:100%;
+    height:300px;
+    border: 1px black groove;
+    position: relative;
+    top:20px;
+}
+.tablezone .Header{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.tablezone .Header h3{
+    text-decoration: underline;
+    padding-bottom: 10px;
+    color: #274118;
+}
+.table table{
+    border:1px black groove;
+    width:100%;
+}
+.table table th,td{
+    border:1px black groove;
+}
+th,td{
+    height:40px;
+}
+th{
+    text-align: center;
+}
+.cvth{
+    width:100px;
+}
+.emailth{
+    width:200px;
+}
+.appdateth,.phonenumbrth{
+    width:130px;
+}

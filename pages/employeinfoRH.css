@@ -1,0 +1,185 @@
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    box-shadow: 1px 0px 10px black;
+    height:500px;
+    position:relative;
+    left:30px;
+    right:30px;
+    top:20px;
+    border-radius: 2rem;
+
+}
+header div{
+    width:100px;
+    height:35px;
+    border:0px black groove;
+    box-shadow: 0px 4px 10px black;
+    background-color: white;
+    border-radius: 2rem;
+    text-align: center;
+}
+header div svg{
+    width:35px;
+    height:35px;
+}
+header div:hover{
+    background-color: #5F7044;
+}
+header div a{
+    color:black;
+}
+header div a:hover{
+    color:black;
+}
+header{
+    position: relative;
+    top:20px;
+    left:20px;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:50px;
+}
+.magepartie{
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.magepartie .image img{
+    width:100px;
+    height:100px;
+}
+.infos{
+    height:auto;
+
+}
+.infopartie{
+    height:400px;
+    padding: 10px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-color: #F0F0F0;
+}
+.infopartie table{
+    width:400px;
+    position: relative;
+    top:0px;
+}
+.infopartie table .td2{
+border-radius: 0rem;
+margin-top:10px;
+padding: 5px;
+border-bottom: 1px black groove;
+/*background-color:#F0F0F0;*/
+}
+
+.infopartie table .td1{
+    font-weight: bold;
+    color: black;
+}
+.buttons{
+    position:absolute;
+    right:20px;
+    width:40%;
+    height:40px;
+    margin-top: 5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.buttons div{
+    border:0px black groove;
+    width:100px;
+    height:30px;
+    margin:5px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #5F7044;
+}
+.buttons div:hover{
+    background-color: black;
+    color:white;
+    box-shadow: 0px 1px 10px black;
+}
+.buttons div a{
+    color:white;
+    text-decoration: none;
+}
+.buttons button{
+    border:0px black groove;
+    width:100px;
+    height:30px;
+    margin:5px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #5F7044;
+    color:white;
+}
+.buttons button:hover{
+    background-color: black;
+    color:white;
+    box-shadow: 0px 1px 10px black;
+}
+form{
+    position: relative;
+    top:30px;
+    right:80px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center ;
+    align-items: center;
+    visibility:hidden;
+}
+form div{
+    margin:2px;
+}
+form div label{
+    font-style:italic;
+    font-weight:bolder;
+    margin-right:25px;
+}
+form div .nom{
+   position: relative;
+   right:20px;
+}
+form div input{
+    position: relative;
+    left:10px;
+}
+form #nom{
+    margin-right: 10px;
+    margin-left:7px;
+}
+.formvisible{
+    position: relative;
+    top:50px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-items: center;
+    visibility:visible;
+}
+.topcontainermodif{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    box-shadow: 1px 0px 10px black;
+    height:1100px;
+    position:relative;
+    left:30px;
+    right:30px;
+    top:20px;
+    border-radius: 2rem;
+
+}
+
