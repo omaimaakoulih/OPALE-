@@ -8,4 +8,4 @@ un projet d'automatisation des ressources humains
 
 • le responsable peut accéder a son espace personnelle avec l'Identifiant 'OPL-12534' et le mot de passe 'RHpasswordSaid'
 
-• pour télécharger projet télécharger le sous le nom Opale
+• pour ouvrir ce  projet télécharger le sous le nom Opale et ajouter le fichier Condidats.sql a vôtre base de données
